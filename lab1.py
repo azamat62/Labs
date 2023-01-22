@@ -1,11 +1,14 @@
 #Synt_1
 print("Hello World")
+
 #Synt_2
 if 5 > 2:
   print("Five is greater than two!")
 
+  
 #Com_1
 #This is a comment
+
 #Com_2
 """
 This is a comment
@@ -13,73 +16,91 @@ written in
 more that just one line
 """
 
+
 #Variables_1
 carname = "Volvo"
+
 #V_2
 x = 50
+
 #V_3
 x = 5
 y = 10
 print(x + y)
+
 #V_4
 x = 5
 y = 10
 z = x + y
 print(z)
+
 #V_5
 myfirst_name = "John"
+
 #V_6
 x = y = z = "Orange"
+
 #V_7
 def myfunc():
   global x
   x = "fantastic"
 
+  
 #DT_1
 x = 5
 print(type(x))
 
 int
+
 #DT_2
 x = "Hello World"
 print(type(x))
 
 str
+
 #DT_3
 x = 20.5
 print(type(x))
 
 float
+
 #DT_4
 x = ["apple", "banana", "cherry"]
 print(type(x))
 
 list
+
 #DT_5
 x = ("apple", "banana", "cherry")
 print(type(x))
 
 tuple
+
 #DT_6
 x = {"name" : "John", "age" : 36}
 print(type(x))
 
 dict
+
 #DT_7
 x = True
 print(type(x))
 
 bool
 
+
 #Num_1
 x = 5
 x = float(x)
+
 #Num_2
 x = 5.5
 x = int(x)
+
 #Num_3
 x = 5
 x = complex(x)
+
 
 #Str_1
 x = "Hello World"
