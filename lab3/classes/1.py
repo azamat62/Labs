@@ -1,4 +1,4 @@
-class IOString():
+class upper():
     def __init__(self):
         self.str1 = ""
 
@@ -8,6 +8,6 @@ class IOString():
     def print_String(self):
         print(self.str1.upper())
 
-str1 = IOString()
+str1 = upper()
 str1.get_String()
 str1.print_String()
